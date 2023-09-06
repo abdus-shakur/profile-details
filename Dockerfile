@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/*.jar profile-details.jar
 
 # Expose the port your Spring Boot application is running on
-EXPOSE 8080
+#EXPOSE 8080
 
 # Define the command to run the Spring Boot application
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "profile-details.jar"]
